@@ -31,3 +31,19 @@ Operacje edycji ofert są ograniczone do zarządzania załącznikami dokumentów
 ## Nazwa aplikacji
 
 BartFirmaDokumenty
+## Wersje
+
+### v1.2.0
+Stabilna, zamrożona wersja produkcyjna.
+Obsługa masowego dodawania dokumentów do ofert Allegro.
+
+### v1.3.0
+Wersja rozszerzona o bezpieczne usuwanie wybranych załączników z ofert.
+
+Funkcja usuwania:
+- działa tylko na zaznaczonych ofertach,
+- najpierw może być uruchomiona w trybie testowym,
+- zachowuje pozostałe załączniki,
+- nie usuwa informacji GPSR,
+- zapisuje stan przed i po zmianie,
+- kontroluje, czy nie zmieniły się inne chronione pola oferty.
